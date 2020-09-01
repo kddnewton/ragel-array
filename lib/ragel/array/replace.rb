@@ -3,7 +3,7 @@
 require 'ripper'
 
 module Ragel
-  module Array
+  class Array
     class Replace < Ripper::SexpBuilderPP
       class Table
         attr_reader :source, :start_line, :end_line

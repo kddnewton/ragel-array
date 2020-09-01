@@ -1,7 +1,7 @@
 #include <ruby.h>
 
 typedef struct ragel_array {
-  uint8_t *data;
+  uint32_t *data;
   size_t size;
 } ragel_array_t;
 
@@ -24,7 +24,7 @@ static VALUE ragel_array_initialize(VALUE self, VALUE rb_string, VALUE rb_size) 
   Data_Get_Struct(self, ragel_array_t, array);
 
   long size = FIX2LONG(rb_size);
-  array->data = calloc(size, sizeof(uint8_t));
+  array->data = calloc(size, sizeof(uint32_t));
   array->size = size;
 
   char *string = StringValueCStr(rb_string);
@@ -35,7 +35,7 @@ static VALUE ragel_array_initialize(VALUE self, VALUE rb_string, VALUE rb_size) 
     while (string[num_end++] != ' ' && num_end < length);
     strncpy(buffer, string + num_start, num_end - num_start);
 
-    array->data[data_index] = (uint8_t) atoi(buffer);
+    array->data[data_index] = (uint32_t) atoi(buffer);
     num_start = num_end;
   }
 
