@@ -1,8 +1,4 @@
-require "ragel/array/version"
+# frozen_string_literal: true
 
-module Ragel
-  module Array
-    class Error < StandardError; end
-    # Your code goes here...
-  end
-end
+require 'ragel/array/version'
+require 'ragel/array/ragel_array'

@@ -6,3 +6,5 @@
 /pkg/
 /spec/reports/
 /tmp/
+
+lib/ragel/array/ragel_array.bundle

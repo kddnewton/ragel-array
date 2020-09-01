@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 module Ragel
-  module Array
-    VERSION = "0.1.0"
+  class Array
+    VERSION = '0.1.0'
   end
 end
