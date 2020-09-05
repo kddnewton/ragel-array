@@ -1,4 +1,4 @@
-# Ragel::array
+# Ragel::Array
 
 [![Build Status](https://github.com/kddeisz/ragel-array/workflows/Main/badge.svg)](https://github.com/kddeisz/ragel-array/actions)
 [![Gem Version](https://img.shields.io/gem/v/ragel-array.svg)](https://rubygems.org/gems/ragel-array)
