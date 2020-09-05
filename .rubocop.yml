@@ -1,0 +1,35 @@
+AllCops:
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+  NewCops: enable
+  TargetRubyVersion: 2.7
+  Exclude:
+  - '{tmp,vendor,yard}/**/*'
+  - 'test/ragel/fixtures/*'
+
+Gemspec/RequiredRubyVersion:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 80
+
+Lint/AmbiguousBlockAssociation:
+  Enabled: false
+
+Naming/RescuedExceptionsVariableName:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/FormatString:
+  EnforcedStyle: percent
+
+Style/FormatStringToken:
+  Enabled: false
+
+Style/PerlBackrefs:
+  Enabled: false
+
+Style/SlicingWithRange:
+  Enabled: false

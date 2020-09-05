@@ -17,7 +17,8 @@ module Ragel
         private
 
         def source_from(name, numbers)
-          "self.#{name} = ::Ragel::Array.new(\"#{numbers.join(' ')}\", #{numbers.length})"
+          "self.#{name} = " \
+            "::Ragel::Array.new(\"#{numbers.join(' ')}\", #{numbers.length})"
         end
       end
 
@@ -31,7 +32,8 @@ module Ragel
         def replace(table)
           buffer = lines[table.start_line][/\A\s+/]
           source = ["#{buffer}#{table.source}"]
-          @lines = lines[0...table.start_line] + source + lines[table.end_line..-1]
+          @lines =
+            lines[0...table.start_line] + source + lines[table.end_line..-1]
         end
 
         def to_source
