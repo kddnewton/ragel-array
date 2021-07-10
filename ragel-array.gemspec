@@ -7,8 +7,8 @@ require 'ragel/array/version'
 Gem::Specification.new do |spec|
   spec.name          = 'ragel-array'
   spec.version       = Ragel::Array::VERSION
-  spec.authors       = ['Kevin Deisz']
-  spec.email         = ['kevin.deisz@gmail.com']
+  spec.authors       = ['Kevin Newton']
+  spec.email         = ['kddnewton@gmail.com']
 
   spec.summary       = 'Provides an efficient uint8_t array'
   spec.homepage      = 'https://github.com/kddeisz/ragel-array'
