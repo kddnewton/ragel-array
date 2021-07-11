@@ -1,6 +1,6 @@
 # Ragel::Array
 
-[![Build Status](https://github.com/kddeisz/ragel-array/workflows/Main/badge.svg)](https://github.com/kddeisz/ragel-array/actions)
+[![Build Status](https://github.com/kddnewton/ragel-array/workflows/Main/badge.svg)](https://github.com/kddnewton/ragel-array/actions)
 [![Gem Version](https://img.shields.io/gem/v/ragel-array.svg)](https://rubygems.org/gems/ragel-array)
 
 [Ragel](https://www.colm.net/open-source/ragel/) generates ruby code with very large arrays of integers that allocate a lot of memory when required. To reduce memory consumption, this gem replaces those arrays with strings that transform into native `uint32_t` arrays.
@@ -45,7 +45,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/kddeisz/ragel-array.
+Bug reports and pull requests are welcome on GitHub at https://github.com/kddnewton/ragel-array.
 
 ## License
 

@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['kddnewton@gmail.com']
 
   spec.summary       = 'Provides an efficient uint8_t array'
-  spec.homepage      = 'https://github.com/kddeisz/ragel-array'
+  spec.homepage      = 'https://github.com/kddnewton/ragel-array'
   spec.license       = 'MIT'
 
   spec.files         = Dir.chdir(__dir__) do
